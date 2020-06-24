@@ -16,7 +16,7 @@ case $opcion in
 2) sudo apt update & sudo apt dist-upgrade & sudo apt clean;;
 3) echo "No hay novedades";;
 q) echo -e "Gracias por usar el asistente, chao.\n
-Nota: Se irán añadiendo más funciones en cada versión.\n\n2020rubsalma ";
+Nota: Se irán añadiendo más funciones en cada versión.\n\n2020androrama ";
  sleep 3; exit 1;;
 *) echo "$opc es una opción inválida. Es tan difícil?";
 echo "Presiona una tecla para continuar...";
