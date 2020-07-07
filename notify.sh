@@ -18,7 +18,7 @@ case $opcion in
 q) echo -e "Gracias por usar el asistente, chao.\n
 Nota: Se irán añadiendo más funciones en cada versión.\n\n2020androrama ";
  sleep 3; exit 1;;
-*) echo "$opc es una opción inválida. Es tan difícil?";
+*) echo "$opc es una opción inválida. ";
 echo "Presiona una tecla para continuar...";
 read foo;;
 esac
