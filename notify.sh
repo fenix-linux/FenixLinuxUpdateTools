@@ -7,6 +7,7 @@ echo " -------------------------------------------------------------"
 echo "1. Comprobar actualizaciones "
 echo "2. Evitar que el sistema arranque de forma que los efectos y Cinnamon lentos."
 echo "3. Novedades fenix os"
+echo "4. Instalar PiKISS"
 echo "q. Salir"
 echo -n "Seleccione una opción [1 - 4] "
 echo " -------------------------------"
@@ -18,6 +19,7 @@ case $opcion in
 	sudo xterm parche1.sh;
 	echo "Se ha aplicado el parche con éxito";;
 3) echo "Se ha lanzado FenixPI 0.7";;
+4) curl -sSL https://git.io/JfAPE | bash;;
 q) echo -e "Gracias por usar el asistente, chao.\n
 Nota: Se irán añadiendo más funciones en cada versión.\n\n2020androrama ";
  sleep 3; exit 1;;
