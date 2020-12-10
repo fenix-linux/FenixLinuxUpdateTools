@@ -8,7 +8,7 @@ echo "1. Check for updates "
 echo "2. Fenix os novelties"
 echo "3. Dist upgrade"
 echo "q. Exit"
-echo -n "Select an option [1 - 4] "
+echo -n "Select an option [1 - 3] "
 echo " -------------------------------"
 read opcion
 case $opcion in
