@@ -6,24 +6,18 @@ do
 echo " -------------------------------------------------------------"
 echo "1. Check for updates "
 echo "2. Novelties"
-
 echo "q. Exit"
 echo -n "Select an option [1 - 4] "
-echo "1. Comprobar actualizaciones "
-echo "2. Novedades"
-echo "q. Salir"
-echo -n "Seleccione una opción [1 - 4] "
 echo " -------------------------------"
 read opcion
 case $opcion in
-1) echo "No updates";;
-2) echo "No novelties ";;
+1) echo "New release soon 10-dic-2020";;
+2) echo "New release soon 10-dic-2020";;
 
-q) echo -e "Gracias por usar el asistente, chao.\n
-Nota: Se irán añadiendo más funciones en cada versión.\n\n2020androrama ";
+q) echo -e "chao.\n";
  sleep 3; exit 1;;
-*) echo "$opc es una opción inválida. ";
-echo "Presiona una tecla para continuar...";
+*) echo "$opc invalid option ";
+echo "Press a key to continue...";
 read foo;;
 esac
 done
