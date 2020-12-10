@@ -14,10 +14,10 @@ read opcion
 case $opcion in
 1) echo "Fenix Release Candidte based on Ubuntu available Soon";;
 2) echo "Fenix Release Candidte based on Ubuntu available Soon";;
-3)sudo apt update --fix-missing && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt install -f && sudo dpkg --configure -a
+3) sudo apt update --fix-missing && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt install -f && sudo dpkg --configure -a;;
 
 q) echo -e "chao.\n
-fenixlinux.com ";
+   fenixlinux.com ";
 echo -e "Thanks for using the assistant, bye.
 Note: More functions will be added in each version. fenixlinux.com ";
  sleep 3; exit 1;;
