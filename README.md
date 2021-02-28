@@ -1,4 +1,4 @@
-Fenix OS updater scripts.
+Fenix Linux Updater Scripts.
 
 <code><pre>
 Changelog:
